@@ -19,4 +19,4 @@ base64 = "0.22"
 komorebi-router = { path = "../router" }
 
 [dev-dependencies]
-tokio = { version = "1.40", features = ["macros", "rt"] }
+tokio = { version = "1.52", features = ["macros", "rt"] }

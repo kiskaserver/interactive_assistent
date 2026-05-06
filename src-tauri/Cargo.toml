@@ -21,7 +21,7 @@ license = "Apache-2.0 OR MIT"
 authors = ["Komorebi contributors"]
 
 [workspace.dependencies]
-tokio = { version = "1.40", features = ["full"] }
+tokio = { version = "1.52", features = ["full"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 thiserror = "1"
