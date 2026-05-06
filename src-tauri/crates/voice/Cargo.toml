@@ -16,7 +16,7 @@ serde_json.workspace = true
 thiserror.workspace = true
 tracing.workspace = true
 anyhow.workspace = true
-rodio = { version = "0.19", default-features = false, features = ["wav"] }
+rodio = { version = "0.22", default-features = false, features = ["wav"] }
 cpal = "0.15"
 parking_lot = "0.12"
 reqwest = { workspace = true, default-features = false, features = ["rustls-tls", "json", "multipart"] }
