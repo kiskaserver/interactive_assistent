@@ -23,13 +23,13 @@
     "framer-motion": "^12.38.0",
     "pixi-live2d-display-lipsyncpatch": "0.5.0-ls-8",
     "pixi.js": "^7.4.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.11.1",
     "@types/node": "^25.6.0",
-    "@types/react": "^18.3.28",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^5.2.0",
     "typescript": "^5.9.3",
