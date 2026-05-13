@@ -14,4 +14,4 @@ async-trait.workspace = true
 arboard = "3.4"
 opener = "0.8"
 chrono = { version = "0.4", default-features = false, features = ["clock"] }
-dirs = "5"
+dirs = "6"
