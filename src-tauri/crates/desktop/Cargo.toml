@@ -11,7 +11,7 @@ thiserror.workspace = true
 tracing.workspace = true
 anyhow.workspace = true
 sysinfo = "0.39"
-enigo = "0.2"
+enigo = "0.6"
 xcap = "0.9"
 image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
 
