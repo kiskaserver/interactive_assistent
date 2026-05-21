@@ -15,4 +15,4 @@ once_cell = "1"
 # fastembed wraps ort + tokenizers and auto-downloads a quantized
 # multilingual MiniLM model on first use (~25 MB). Pure-Rust inference,
 # CPU only, no Python or external runtime required.
-fastembed = { version = "4", default-features = false, features = ["ort-download-binaries", "hf-hub-rustls-tls"] }
+fastembed = { version = "5", default-features = false, features = ["ort-download-binaries", "hf-hub-rustls-tls"] }
