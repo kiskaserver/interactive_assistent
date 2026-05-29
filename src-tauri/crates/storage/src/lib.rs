@@ -9,9 +9,19 @@ pub use rag::{FolderStats, IndexReport, RagError, RagHit, RagIndex};
 
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct AppConfig {
     pub llm_model_path: Option<String>,
     pub openrouter_model: Option<String>,
     pub hotkey_toggle_input: Option<String>,
+}
+
+impl Default for AppConfig {
+    fn default() -> Self {
+        Self {
+            llm_model_path: None,
+            openrouter_model: None,
+            hotkey_toggle_input: None,
+        }
+    }
 }
