@@ -367,6 +367,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
 
 [[package]]
+name = "base64"
+version = "0.23.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ac07cdecf99051d9a5238b80f35af32cdeba5b336e55d957b318b50137e18da5"
+
+[[package]]
 name = "base64ct"
 version = "1.8.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -948,7 +954,7 @@ dependencies = [
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
- "windows 0.61.3",
+ "windows 0.62.2",
 ]
 
 [[package]]
@@ -2518,7 +2524,7 @@ dependencies = [
  "js-sys",
  "log",
  "wasm-bindgen",
- "windows-core 0.61.2",
+ "windows-core 0.62.2",
 ]
 
 [[package]]
@@ -2959,7 +2965,7 @@ version = "2.0.10"
 dependencies = [
  "anyhow",
  "async-stream",
- "base64 0.22.1",
+ "base64 0.23.1",
  "chrono",
  "futures",
  "iana-time-zone",
@@ -2981,7 +2987,7 @@ dependencies = [
  "serde_json",
  "sha2 0.10.9",
  "sys-locale",
- "sysinfo",
+ "sysinfo 0.38.4",
  "tauri",
  "tauri-build",
  "tauri-plugin-dialog",
@@ -3003,7 +3009,7 @@ version = "2.0.10"
 dependencies = [
  "async-stream",
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "bytes",
  "futures",
  "komorebi-router",
@@ -3024,7 +3030,7 @@ dependencies = [
  "image",
  "serde",
  "serde_json",
- "sysinfo",
+ "sysinfo 0.39.1",
  "thiserror 2.0.18",
  "tracing",
  "winapi",
@@ -3036,7 +3042,7 @@ name = "komorebi-imagegen"
 version = "2.0.10"
 dependencies = [
  "async-trait",
- "base64 0.22.1",
+ "base64 0.23.1",
  "reqwest 0.12.28",
  "serde",
  "serde_json",
@@ -3125,7 +3131,7 @@ name = "komorebi-voice"
 version = "2.0.10"
 dependencies = [
  "anyhow",
- "base64 0.22.1",
+ "base64 0.23.1",
  "cpal",
  "num_cpus",
  "parking_lot",
@@ -5967,6 +5973,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8eab9a99a024a169fe8a903cf9d4a3b3601109bcc13bd9e3c6fff259138626c4"
 dependencies = [
  "libc",
+]
+
+[[package]]
+name = "sysinfo"
+version = "0.38.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92ab6a2f8bfe508deb3c6406578252e491d299cbbf3bc0529ecc3313aee4a52f"
+dependencies = [
+ "libc",
+ "memchr",
+ "ntapi",
+ "objc2-core-foundation",
+ "objc2-io-kit",
+ "windows 0.62.2",
 ]
 
 [[package]]

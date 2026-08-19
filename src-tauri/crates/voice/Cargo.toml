@@ -20,7 +20,7 @@ rodio = { version = "0.22", default-features = false, features = ["playback", "w
 cpal = "0.17"
 parking_lot = "0.12"
 reqwest = { workspace = true, default-features = false, features = ["rustls-tls", "json", "multipart"] }
-base64 = "0.22"
+base64 = "0.23"
 
 # Optional: pulled in only when the `stt` feature is enabled.
 whisper-rs = { version = "0.16", optional = true }

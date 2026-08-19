@@ -15,7 +15,7 @@ futures.workspace = true
 async-trait.workspace = true
 async-stream = "0.3"
 bytes = "1"
-base64 = "0.22"
+base64 = "0.23"
 komorebi-router = { path = "../router" }
 
 [dev-dependencies]
